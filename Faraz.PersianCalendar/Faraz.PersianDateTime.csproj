@@ -3,6 +3,25 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Copyright>Faraz Pourafshin</Copyright>
+    <ApplicationIcon>4171930_api_application_code_interface_programming_icon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Faraz.PersianDateTime</Title>
+    <Description>Persian DateTime Helper</Description>
+    <PackageIcon>4171930_api_application_code_interface_programming_icon.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/farazp/Faraz.PersianDateTime.git</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/farazp/Faraz.PersianDateTime</PackageProjectUrl>
+	  <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="4171930_api_application_code_interface_programming_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\_Projects Content\Icon\4171930_api_application_code_interface_programming_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
